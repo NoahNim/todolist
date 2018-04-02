@@ -14,11 +14,29 @@
         <h2>Add a task:</h2>
         <form id="toDoForm">
           <div class="form-group">
-            <label for="location">Add a task</label>
-            <input type="text" class="form-control" id="newTask">
+            <label for="morningTask">What day is this for?</label>
+            <input type="text" class="form-control" id="day">
           </div>
-
-
+          <div class="form-group">
+            <label for="morningTask">Add a morning task</label>
+            <input type="text" class="form-control" id="morning">
+          </div>
+          <div class="form-group">
+            <label for="morningTask">Add a late morning task</label>
+            <input type="text" class="form-control" id="lateMorning">
+          </div>
+          <div class="form-group">
+            <label for="morningTask">Add a afternoon task</label>
+            <input type="text" class="form-control" id="afternoong">
+          </div>
+          <div class="form-group">
+            <label for="morningTask">Add a late afternoontask</label>
+            <input type="text" class="form-control" id="lateAfternoon">
+          </div>
+          <div class="form-group">
+            <label for="morningTask">Add a evening task</label>
+            <input type="text" class="form-control" id="evening">
+          </div>
           <button type="submit" class="btn">Add</button>
         </form>
       </div>
@@ -27,6 +45,8 @@
       <ul id="taskList">
 
       </ul>
+
+      <button id="removeButton" type="button" class="btn">Remove</button>
     </div>
 
   </body>
