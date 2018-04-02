@@ -1,3 +1,11 @@
 #removeButton{
   display:none;
 }
+
+.day-class {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}

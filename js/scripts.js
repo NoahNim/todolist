@@ -19,7 +19,7 @@ $(document).ready(function() {
     var inputtedEvening = $("input#eveningt").val();
     var newTaskList = new toDoList(inputtedDay, inputtedMorning, inputtedLateMorning, inputtedAfternoon, inputtedLateAfternoon, inputtedEvening);
 
-    $("ul").append("<li>" + newTaskList.day + "</li><li>" + newTaskList.morningTask + "</li><li>" + newTaskList.lateMorningTask + "</li><li>" + newTaskList.afternoonTask + "</li><li>" + newTaskList.lateAfternoonTask + "</li><li>" + newTaskList.eveningTask + "</li>")
+    $("ul").append("<li class='day-class'>" + newTaskList.day + "</li><li>" + newTaskList.morningTask + "</li><li>" + newTaskList.lateMorningTask + "</li><li>" + newTaskList.afternoonTask + "</li><li>" + newTaskList.lateAfternoonTask + "</li><li>" + newTaskList.eveningTask + "</li>")
     $("ul#taskList li").click(function(){
       $(this).remove();
     });
